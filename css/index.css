@@ -182,7 +182,7 @@ ul{
     margin-bottom: 25px;
 }
 
-p, h2 {
+ h2 {
     font-weight: bold;
 }
 
@@ -227,3 +227,109 @@ p, h2 {
     background-color: dodgerblue;
 }
 
+/* About page */
+
+
+.menu-about-page{
+    max-width: 643px;
+    width: 643px;
+   
+}
+
+.about-page-top{
+    display: flex;
+    max-width: 800px;
+    margin-top: 30px;
+    align-items: baseline;
+}
+
+.about-content-image{
+    margin-top:30px;
+    margin-bottom: 25px;
+}
+
+/* .about-top-content{
+    
+    
+    
+} */
+
+ .about-top-content{
+    margin-bottom: 30px;
+}
+
+hr{
+    decoration: 1px dashed black;
+}
+
+/* .about-main{
+    max-width: 800px;
+    /* display: flex; */
+
+ 
+
+.strategy{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    border-bottom: 1px dashed black;
+}
+
+.how-we-work{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    border-bottom: 1px dashed black;
+}
+
+.places-we-work{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    border-bottom: 1px dashed black;
+}
+
+.collaboration{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page-bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-main-list{
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+
+}
+
+.strategy-how{
+    display: flex;
+    justify-content: space-between;
+}
+
+.places-collaboration{
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-more{
+    padding: 4px;
+    border: 2px solid black;
+    max-width: 110px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10%;
+    margin-bottom: 30px;
+   
+}
+
+h3 {
+    margin-top: 15px;
+    font-weight:bold;
+}
