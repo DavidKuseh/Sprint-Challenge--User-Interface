@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,193 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My own styling */
+ 
+.top {
+    display: flex;
+    max-width: 800px;
+    margin-top: 30px;
+    align-items: baseline;
+}
+
+ ul, li{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu{
+    max-width: 643px;
+    width: 643px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    max-width: 570px;
+}
+
+.top-content-image{
+    margin-top:30px;
+    margin-bottom: 25px;
+}
+
+ h2 {
+    font-weight: bold;
+}
+
+.box-1 {
+    background-color: teal;
+}
+
+.box-2{
+    background-color: gold;
+}
+
+
+.box-3 {
+    background-color: cadetblue;
+}
+
+.box-4 {
+    background-color: coral;
+}
+
+.box-5 {
+    background-color: crimson;
+}
+
+.box-6 {
+    background-color: forestgreen;
+}
+
+.box-7 {
+    background-color: darkorchid;
+}
+
+.box-8 {
+    background-color: hotpink;
+}
+
+.box-9 {
+    background-color: indigo;
+}
+
+.box-10 {
+    background-color: dodgerblue;
+}
+
+/* About page */
+
+
+.menu-about-page{
+    max-width: 643px;
+    width: 643px;
+   
+}
+
+.about-page-top{
+    display: flex;
+    max-width: 800px;
+    margin-top: 30px;
+    align-items: baseline;
+}
+
+.about-content-image{
+    margin-top:30px;
+    margin-bottom: 25px;
+}
+
+/* .about-top-content{
+    
+    
+    
+} */
+
+ .about-top-content{
+    margin-bottom: 30px;
+}
+
+hr{
+    decoration: 1px dashed black;
+}
+
+/* .about-main{
+    max-width: 800px;
+    /* display: flex; */
+
+ 
+
+.strategy{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    border-bottom: 1px dashed black;
+}
+
+.how-we-work{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    border-bottom: 1px dashed black;
+}
+
+.places-we-work{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    border-bottom: 1px dashed black;
+}
+
+.collaboration{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page-bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-main-list{
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+
+}
+
+.strategy-how{
+    display: flex;
+    justify-content: space-between;
+}
+
+.places-collaboration{
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-more{
+    padding: 4px;
+    border: 2px solid black;
+    max-width: 110px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10%;
+    margin-bottom: 30px;
+   
+}
+
+h3 {
+    margin-top: 15px;
+    font-weight:bold;
 }
